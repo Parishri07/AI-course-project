@@ -11,7 +11,7 @@ This project, Emotion Recognition and Contextual Summarization for Mental Health
 
 ![Flow diagram](images/flowchart-1.jpg)
 
-2. **Method 2**: The **CSEP approach** focuses on emotion detection directly from text while summarizing the context for concise insights. Initially, the dataset undergoes preprocessing steps, including **tokenization of utterances** and **label encoding** for the Dialogue Act and Emotion columns. We employed a custom **BERT-based model** for embedding the input data, which was implemented using **PyTorch**. This model learns contextual representations of the conversations, enabling more accurate emotion predictions. Additionally, a **summarization model** with a dynamic threshold of 20 is applied to the dataset, providing a condensed version of the conversation while retaining its emotional essence. This helps streamline the analysis and enhances the interpretability of long conversations, ensuring the system delivers high-quality, actionable insights for mental health support.
+2. **Method 2**: The **CSEP approach** focuses on emotion detection directly from text while summarizing the context for concise insights. Initially, the dataset undergoes preprocessing steps, including **tokenization of utterances** and **label encoding** for the Dialogue Act and Emotion columns. We employed a custom **BERT-based model** for embedding the input data, which was implemented using **PyTorch**. This model learns contextual representations of the conversations, enabling more accurate emotion predictions. Additionally, a **summarization model** using **BART** with a dynamic threshold of 30 is applied to the dataset, providing a condensed version of the conversation while retaining its emotional essence. This helps streamline the analysis and enhances the interpretability of long conversations, ensuring the system delivers high-quality, actionable insights for mental health support.
 
 
 ![Flow diagram](images/flowchart-2.jpg)
@@ -23,6 +23,6 @@ This project, Emotion Recognition and Contextual Summarization for Mental Health
 3. **Summarization for Better Context**: The summarization model in CSEP enables the system to focus on the most relevant parts of the conversation, improving decision-making and emotional analysis.
 
 
-<!-- ## Presentation Slides
-[PPT]() -->
+## Presentation Slides
+[PPT](AI Project Presentation.pdf) 
 
