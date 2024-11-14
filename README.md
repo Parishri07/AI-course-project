@@ -24,5 +24,5 @@ This project, Emotion Recognition and Contextual Summarization for Mental Health
 
 
 ## Presentation Slides
-[PPT](AI Project Presentation.pdf) 
+![PPT](AI_Project_Presentation.pdf) 
 
