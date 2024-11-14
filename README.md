@@ -16,6 +16,13 @@ This project, Emotion Recognition and Contextual Summarization for Mental Health
 
 ![Flow diagram](images/flowchart-2.jpg)
 
+## Key Contributions
+
+1. **Emotion Recognition through Audio and Text**: ADER integrates audio analysis, while CSEP enhances emotion recognition with contextual textual insights.
+2. **Advanced Modeling Techniques**: The use of ML models like XGBoost, Random Forest, and a custom BERT model ensures robust emotion prediction.
+3. **Summarization for Better Context**: The summarization model in CSEP enables the system to focus on the most relevant parts of the conversation, improving decision-making and emotional analysis.
+
+
 <!-- ## Presentation Slides
 [PPT]() -->
 
