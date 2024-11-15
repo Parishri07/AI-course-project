@@ -53,5 +53,5 @@ d) Prediction - Upload any text. It summarizes the text if word count is more th
 
 
 ## Presentation Slides
-[PPT](AI_Project_Presentation.pdf) 
+[PPT](AI_Project_Presentation.pptx) 
 
