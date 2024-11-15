@@ -4,6 +4,12 @@
 
 This project, Emotion Recognition and Contextual Summarization for Mental Health Conversations, aims to provide AI-driven mental health assistance by recognizing emotions in conversations and summarizing contextually relevant content. We implemented two distinct approaches to achieve robust emotion detection and contextual understanding: **Audio-Driven Emotion Recognition (ADER)** and **Contextual Summarization and Emotion Prediction (CSEP)**.
 
+## Team Members
+1. Ravi Raj - 22bds051
+2. Parishri Shah - 22bds043
+3. Pakhi Singhal - 22bds042
+4. Preethi Varshala S - 22bds045
+
 
 ## Methodology
 
@@ -15,6 +21,29 @@ This project, Emotion Recognition and Contextual Summarization for Mental Health
 
 
 ![Flow diagram](images/flowchart-2.jpg)
+
+
+##How to run
+1. Audio-Driven Emotion Recognition (ADER)
+File name : Conversion-to-audio-emotion-detection.ipynb
+Dataset Name : 5247-rows_3-Emotions_No-Type.xlsx
+Key Steps :
+a) Install Dependencies - Install the gTTS library using pip install gTTS
+b) Upload the dataset
+c) Run the 'Conversion-to-audio-emotion-detection.ipynb' file which converts the text in the 'Utterance' column to audio (.mp3) using gTTS. Then detects emotion of the audio file.
+d) Saves audio files in the designated output directory (audio_outputs_gtts).
+e) Outputs - Generates audio files corresponding to each utterance.
+f) Prediction - Upload .mp3 file then the model predicts the emotion of the speech.
+
+3. Contextual Summarization and Emotion Prediction (CSEP)
+File name : Emotions-Detection-Using-Text-Utterance.ipynb
+Dataset Name : 5247-rows_3-Emotions_No-Type.xlsx
+Key Steps :
+a) Install Dependencies - Install Dependencies
+b) Upload the dataset
+c) Run the 'Emotions-Detection-Using-Text-Utterance.ipynb' file which detects emotion of the text in the Utterance column.
+d) Prediction - Upload any text. It summarizes the text if word count is more than 30 and then predicts the emotion.
+
 
 ## Key Contributions
 
