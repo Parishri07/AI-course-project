@@ -23,7 +23,7 @@ This project, Emotion Recognition and Contextual Summarization for Mental Health
 ![Flow diagram](images/flowchart-2.jpg)
 
 
-##How to run
+## How to run
 1. Audio-Driven Emotion Recognition (ADER)
 File name : Conversion-to-audio-emotion-detection.ipynb
 Dataset Name : 5247-rows_3-Emotions_No-Type.xlsx
