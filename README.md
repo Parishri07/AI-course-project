@@ -57,5 +57,5 @@ d) Prediction - Upload any text. It summarizes the text if word count is more th
 [PPT](AI_Project_Presentation.pptx) 
 
 ## Integration from previous semester projects
-The part of Text summarization was integrated from project done in semester 4.
+The part of Text summarization was integrated from project done in semester 4. <br />
 Project Link:  https://github.com/arusix-46/NLP-Project
